@@ -80,13 +80,24 @@
                 <value>bbb</value>
             </list>
         </property>
-        <!--list-->
+        <!--list集合类型-->
         <property name="list">
             <list>
                 <value>11</value>
                 <value>22</value>
             </list>
         </property>
+        <!--Set集合类型-->
+        <property name="set">
+            <set>
+                <value>ddd</value>
+                <value>eee</value>
+                <value>fff</value>
+            </set>
+        </property>
     </bean>
+
+
+
 
 </beans>
