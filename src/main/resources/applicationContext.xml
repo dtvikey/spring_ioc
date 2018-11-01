@@ -95,6 +95,21 @@
                 <value>fff</value>
             </set>
         </property>
+        <!--Map类型-->
+        <property name="map">
+            <map>
+                <entry key="a" value="1"/>
+                <entry key="b" value="2"/>
+                <entry key="c" value="3"/>
+            </map>
+        </property>
+        <!--Properties-->
+        <property name="properties">
+            <props>
+                <prop key="username">root</prop>
+                <prop key="password">123</prop>
+            </props>
+        </property>
     </bean>
 
 
