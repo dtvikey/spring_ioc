@@ -71,5 +71,22 @@
         <property name="category" value="#{category}"/>
     </bean>
 
+    <!--集合类型的属性注入-->
+    <bean id ="collectionBean" class="com.imooc.ioc.demo5.CollectionBean">
+        <!--数组类型-->
+        <property name="arrs">
+            <list>
+                <value>aaa</value>
+                <value>bbb</value>
+            </list>
+        </property>
+        <!--list-->
+        <property name="list">
+            <list>
+                <value>11</value>
+                <value>22</value>
+            </list>
+        </property>
+    </bean>
 
 </beans>
