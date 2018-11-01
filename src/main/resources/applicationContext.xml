@@ -63,10 +63,12 @@
            <property name="name" value="#{'服装'}"/>
     </bean>
 
+    <bean id="productInfo" class="com.imooc.ioc.demo4.ProductInfo"/>
+
     <bean id = "product" class="com.imooc.ioc.demo4.Product">
-        <property name="name" value="男装"/>
-        <property name="price" value="198"/>
-        <property name=""/>
+        <property name="name" value="#{'男装'}"/>
+        <property name="price" value="#{productInfo.calculatePrice()}"/>
+        <property name="category" value="#{category}"/>
     </bean>
 
 
